@@ -22,7 +22,7 @@ class TriviaGenerator
   def ask_questions
     # ask each question
     # if response is correct, put a correct message and increase score
-    # if response is incorrect, put an incorrect message, and which was the correct answer 
+    # if response is incorrect, put an incorrect message, and which was the correct answer
     # once the questions end, show user's score and promp to save it
   end
 

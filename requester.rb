@@ -20,6 +20,7 @@ module Requester
   def get_number(max: 100_000)
     # prompt the user for a number between 1 and the maximum number of options
   end
+
   def gets_option(prompt, options)
     # prompt for an input
     # keep going until the user gives a valid option
