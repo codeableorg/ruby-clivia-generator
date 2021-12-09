@@ -45,10 +45,8 @@ Question: What was the capital of South Vietnam before the Vietnam War?
 > 
 ```
 
-<aside> 💡 The base_uri of the request is
-[https://opentdb.com/](https://opentdb.com/), need more detail on the API? Look
-at
-[https://opentdb.com/api_config.php](https://opentdb.com/api_config.php)</aside>
+The base_uri of the request is https://opentdb.com/, need more detail
+on the API? Look at [here](https://opentdb.com/api_config.php)
 
 Once the user gives an answer you should compare it with the correct answer
 delivered by the API. Then give the user a correct or incorrect response
