@@ -1,7 +1,7 @@
 # do not forget to require your gem dependencies
 # do not forget to require_relative your local dependencies
 
-class TriviaGenerator
+class CliviaGenerator
   # maybe we need to include a couple of modules?
 
   def initialize
@@ -36,7 +36,7 @@ class TriviaGenerator
 
   def load_questions
     # ask the api for a random set of questions
-    parse_questions
+    # then parse the questions
   end
 
   def parse_questions
@@ -48,5 +48,5 @@ class TriviaGenerator
   end
 end
 
-trivia = TriviaGenerator.new
+trivia = CliviaGenerator.new
 trivia.start
