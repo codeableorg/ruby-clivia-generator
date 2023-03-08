@@ -7,6 +7,9 @@ Style/StringLiterals:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+Style/MutableConstant:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
 
@@ -16,14 +19,14 @@ Metrics/MethodLength:
 Metrics/AbcSize:
   Max: 30
 
-Metrics/CyclomaticComplexity:
-  Max: 15
-
 Style/GlobalVars:
   Enabled: false
 
 Style/WordArray:
-  MinSize: 10
+  EnforcedStyle: brackets
+
+Metrics/CyclomaticComplexity:
+  Max: 15
 
 Style/ClassVars:
   Enabled: false

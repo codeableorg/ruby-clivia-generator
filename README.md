@@ -7,10 +7,10 @@ questions, and the user's score.
 
 The filename value is `scores.json` by default, but the user can pass a custom
 filename as a command-line argument. For example
-`ruby clivia_generator.rb custom_scores.json`
+`ruby main.rb custom_scores.json`
 
 ```
-ruby clivia_generator.rb
+ruby main.rb
 ###################################
 #   Welcome to Clivia Generator   #
 ###################################
@@ -42,7 +42,7 @@ Question: What was the capital of South Vietnam before the Vietnam War?
 2. Hue
 3. Saigon
 4. Hanoi
-> 
+>
 ```
 
 The base_uri of the request is https://opentdb.com/, need more detail
@@ -156,7 +156,7 @@ when the file is empty to be able to keep going. </aside>
 Last but not least, when scores action is selected you should show the scores
 that were saved previously, these scores should be shown in order from top to
 bottom and inside a table that includes the title `Top Scores`, and the headings
-`Name` ****and `Score`.
+`Name` \*\*\*\*and `Score`.
 
 Once the table is shown, we will prompt the user with the welcome menu again so
 they can keep going with another Clivia.

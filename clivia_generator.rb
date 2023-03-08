@@ -47,6 +47,3 @@ class CliviaGenerator
     # print the scores sorted from top to bottom
   end
 end
-
-trivia = CliviaGenerator.new
-trivia.start
